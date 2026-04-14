@@ -1,0 +1,8 @@
+# SpanKey / dksc — root dependencies for all numbered examples under examples/
+# Recommend Python 3.10+ and a CUDA-capable GPU for 02–05 and full 04 runs.
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.20.0
+timm>=0.9.0
+# Optional: only needed to run examples/plot_spankey05_ablation.py
+matplotlib>=3.7.0

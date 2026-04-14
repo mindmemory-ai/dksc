@@ -1,0 +1,124 @@
+{
+  "runs": [
+    {
+      "example": "01",
+      "dir": "01_spankey_mlp",
+      "inject": "add",
+      "train": {
+        "acc_no_key": 0.88,
+        "acc_correct_key": 0.9787,
+        "acc_wrong_key": 0.4887
+      },
+      "test": {
+        "acc_no_key": 0.7075,
+        "acc_correct_key": 0.75,
+        "acc_wrong_key": 0.5575
+      }
+    },
+    {
+      "example": "01",
+      "dir": "01_spankey_mlp",
+      "inject": "mul",
+      "train": {
+        "acc_no_key": 0.9619,
+        "acc_correct_key": 0.9919,
+        "acc_wrong_key": 0.6719
+      },
+      "test": {
+        "acc_no_key": 0.8325,
+        "acc_correct_key": 0.825,
+        "acc_wrong_key": 0.6375
+      }
+    },
+    {
+      "example": "02",
+      "dir": "02_spankey_cnn_mnist",
+      "inject": "add",
+      "train": {
+        "acc_no_key": 0.99,
+        "acc_correct_key": 0.9898,
+        "acc_wrong_key": 0.9894
+      },
+      "test": {
+        "acc_no_key": 0.9928,
+        "acc_correct_key": 0.993,
+        "acc_wrong_key": 0.9917
+      }
+    },
+    {
+      "example": "02",
+      "dir": "02_spankey_cnn_mnist",
+      "inject": "mul",
+      "train": {
+        "acc_no_key": 0.9896,
+        "acc_correct_key": 0.9892,
+        "acc_wrong_key": 0.9889
+      },
+      "test": {
+        "acc_no_key": 0.9926,
+        "acc_correct_key": 0.992,
+        "acc_wrong_key": 0.9914
+      }
+    },
+    {
+      "example": "03",
+      "dir": "03_spankey_resnet_fashionmnist",
+      "inject": "add",
+      "train": {
+        "acc_no_key": 0.8582,
+        "acc_correct_key": 0.8567,
+        "acc_wrong_key": 0.5516
+      },
+      "test": {
+        "acc_no_key": 0.8512,
+        "acc_correct_key": 0.8577,
+        "acc_wrong_key": 0.5716
+      }
+    },
+    {
+      "example": "03",
+      "dir": "03_spankey_resnet_fashionmnist",
+      "inject": "mul",
+      "train": {
+        "acc_no_key": 0.5681,
+        "acc_correct_key": 0.8899,
+        "acc_wrong_key": 0.868
+      },
+      "test": {
+        "acc_no_key": 0.5826,
+        "acc_correct_key": 0.8872,
+        "acc_wrong_key": 0.8676
+      }
+    },
+    {
+      "example": "04",
+      "dir": "04_spankey_resnet18_cifar10",
+      "inject": "add",
+      "train": {
+        "acc_no_key": 0.98,
+        "acc_correct_key": 0.9885,
+        "acc_wrong_key": 0.3334
+      },
+      "test": {
+        "acc_no_key": 0.8438,
+        "acc_correct_key": 0.8443,
+        "acc_wrong_key": 0.3174
+      }
+    },
+    {
+      "example": "04",
+      "dir": "04_spankey_resnet18_cifar10",
+      "inject": "mul",
+      "train": {
+        "acc_no_key": 0.8311,
+        "acc_correct_key": 0.9963,
+        "acc_wrong_key": 0.9947
+      },
+      "test": {
+        "acc_no_key": 0.8176,
+        "acc_correct_key": 0.9039,
+        "acc_wrong_key": 0.9008
+      }
+    }
+  ]
+}

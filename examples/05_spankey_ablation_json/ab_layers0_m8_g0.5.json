@@ -1,0 +1,32 @@
+{
+  "config": {
+    "m": 8,
+    "gamma": 0.5,
+    "inject_layers": [
+      0
+    ],
+    "inject": "mul",
+    "deny_weight": 0.1,
+    "deny_on": "wrong",
+    "epochs": 20,
+    "seed": 42
+  },
+  "metrics_train": {
+    "acc_semantic_no_key": 0.16606666147708893,
+    "acc_semantic_correct_key": 0.9881333708763123,
+    "acc_semantic_wrong_key": 0.0032166666351258755,
+    "reject_frac_no_key": 0.8338500261306763,
+    "reject_frac_correct_key": 0.0,
+    "reject_frac_wrong_key": 0.9967833161354065,
+    "random_baseline": 0.1
+  },
+  "metrics_test": {
+    "acc_semantic_no_key": 0.1818999946117401,
+    "acc_semantic_correct_key": 0.9911999702453613,
+    "acc_semantic_wrong_key": 0.0009999999310821295,
+    "reject_frac_no_key": 0.8179999589920044,
+    "reject_frac_correct_key": 0.0,
+    "reject_frac_wrong_key": 0.9989999532699585,
+    "random_baseline": 0.1
+  }
+}
