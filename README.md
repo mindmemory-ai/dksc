@@ -127,4 +127,4 @@ Copy an existing `examples/<NN>_…` folder, keep the same injection pattern (`f
 
 ## Citation
 
-If you use this code, please cite the SpanKey paper (see `paper/` draft or the project page) and link this repository: [https://github.com/mindmemory-ai/dksc](https://github.com/mindmemory-ai/dksc).
+If you use this code, please cite the SpanKey paper ([https://arxiv.org/pdf/2604.12254](https://arxiv.org/pdf/2604.12254)) and link this repository: [https://github.com/mindmemory-ai/dksc](https://github.com/mindmemory-ai/dksc).
